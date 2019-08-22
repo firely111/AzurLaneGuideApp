@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/faction_ironblood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#F10909"
+        android:text="Ironblood"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/faction_eagle_union"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0288D1"
+        android:text="Eagle Union"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_ironblood" />
+
+    <Button
+        android:id="@+id/faction_sakura_empire"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FB8DB5"
+        android:text="Sakura Empire"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_royal_navy" />
+
+    <Button
+        android:id="@+id/faction_eastern_radiance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#B60101"
+        android:text="Eastern Radiance"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_vichya_dominion" />
+
+    <Button
+        android:id="@+id/faction_north_union"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#484747"
+        android:text="North Union"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_eastern_radiance" />
+
+    <Button
+        android:id="@+id/faction_vichya_dominion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#A00303"
+        android:text="Vichya Dominion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_iris_libre" />
+
+    <Button
+        android:id="@+id/faction_royal_navy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#303F9F"
+        android:text="Royal Navy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_eagle_union" />
+
+    <Button
+        android:id="@+id/faction_iris_libre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#0220FF"
+        android:text="Iris Libre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faction_sakura_empire" />
+</androidx.constraintlayout.widget.ConstraintLayout>
