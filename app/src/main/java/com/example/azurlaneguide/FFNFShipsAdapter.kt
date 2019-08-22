@@ -6,46 +6,36 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
-class FFNFShipsAdapter(val list: ArrayList<FFNFData>) : RecyclerView.Adapter<FFNFShipsAdapter.ViewHolder>(){
+class FFNFShipsAdapter(val list: ArrayList<FFNF>) : RecyclerView.Adapter<FFNFShipsAdapter.CustomViewHolder>(){
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.layout_ffnfshipitem, parent, false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {
+        return CustomViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.layout_ffnf_ship_item, parent, false))
     }
 
     override fun getItemCount() = list.size
 
-    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
         holder.bind(list[position])
         holder.image = position
     }
 
-    class ViewHolder(view: View, var image: Int?= null) : RecyclerView.ViewHolder(view){
+    class CustomViewHolder(view: View, var image: Int?= null) : RecyclerView.ViewHolder(view){
 
-        fun bind(data: FFNFData){
+        fun bind(ffnf: FFNF){
             val imageView:ImageView = itemView.findViewById(R.id.ffnf_image)
-            imageView.setImageBitmap(data.image)
+            Picasso.get().load(ffnf.image).into(imageView)
         }
 
         companion object{
             val IMAGE_KEY = "IMAGE"
-            val NAME_KEY = "NAME"
         }
 
         init {
             view.setOnClickListener{
-                val intent = Intent(view.context, EquipmentImageActivity::class.java)
-                when (image){
-                    0 -> {
-                        intent.putExtra(IMAGE_KEY, R.drawable.emile_bertin_eq)
-                        intent.putExtra(NAME_KEY, "Emile Bertin")
-                    }
-                    4 -> {
-                        intent.putExtra(IMAGE_KEY, R.drawable.le_triomphant_eq)
-                        intent.putExtra(NAME_KEY, "Le Triomphant")
-                    }
-                    else -> println("KAPPA")
-                }
+                val intent = Intent(view.context, FFNFEquipmentImageActivity::class.java)
+                intent.putExtra(IMAGE_KEY,image)
                 view.context.startActivity(intent)
 
             }
