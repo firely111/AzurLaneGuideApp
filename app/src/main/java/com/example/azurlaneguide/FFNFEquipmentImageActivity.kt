@@ -2,10 +2,9 @@ package com.example.azurlaneguide
 
 import android.os.Bundle
 import android.widget.ImageView
-import androidx.appcompat.app.AppCompatActivity
 import com.squareup.picasso.Picasso
 
-class FFNFEquipmentImageActivity : AppCompatActivity() {
+class FFNFEquipmentImageActivity : MenuActivity() {
 
     val emileBertin = "https://i.imgur.com/UvcLUT9.png"
     val forbin = "https://i.imgur.com/zlzt4R0.png"
@@ -20,7 +19,7 @@ class FFNFEquipmentImageActivity : AppCompatActivity() {
 
         setContentView((R.layout.activity_ffnf_equipment_image))
 
-        val image = intent.getIntExtra(FFNFShipsAdapter.CustomViewHolder.IMAGE_KEY, -1)
+        val image = intent.getIntExtra(FFNFShipsAdapter.FFNFViewHolder.IMAGE_KEY, -1)
         val imageView: ImageView = findViewById(R.id.equipment_image)
         when (image){
             0 -> {

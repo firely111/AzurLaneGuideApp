@@ -1,12 +1,11 @@
 package com.example.azurlaneguide
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 
-class FFNFShipsActivity : AppCompatActivity() {
+class FFNFShipsActivity : MenuActivity() {
 
     val ffnfShip: ArrayList<FFNF> = ArrayList()
 

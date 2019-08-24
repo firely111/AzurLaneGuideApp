@@ -12,7 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".KmsShipsActivity" />
-        <activity android:name=".MainActivity"
+
+        <activity android:name=".FactionActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,17 +21,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".FFNFShipsActivity"
             android:label="Iris Libre Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".FactionActivity"/>
         </activity>
+
         <activity android:name=".FFNFEquipmentImageActivity"
             android:launchMode="singleTop">
         <meta-data android:name="android.support.PARENT_ACTIVITY"
             android:value=".FFNFShipsActivity"/>
         </activity>
+
+        <activity android:name=".AboutActivity"
+            android:label="About"
+            android:launchMode="singleTop">
+        </activity>
+
     </application>
 
 </manifest>

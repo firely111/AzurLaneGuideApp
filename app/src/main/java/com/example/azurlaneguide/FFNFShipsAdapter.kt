@@ -8,20 +8,20 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
-class FFNFShipsAdapter(val list: ArrayList<FFNF>) : RecyclerView.Adapter<FFNFShipsAdapter.CustomViewHolder>(){
+class FFNFShipsAdapter(val list: ArrayList<FFNF>) : RecyclerView.Adapter<FFNFShipsAdapter.FFNFViewHolder>(){
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {
-        return CustomViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.layout_ffnf_ship_item, parent, false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FFNFViewHolder {
+        return FFNFViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.layout_ffnf_ship_item, parent, false))
     }
 
     override fun getItemCount() = list.size
 
-    override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: FFNFViewHolder, position: Int) {
         holder.bind(list[position])
         holder.image = position
     }
 
-    class CustomViewHolder(view: View, var image: Int?= null) : RecyclerView.ViewHolder(view){
+    class FFNFViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewHolder(view){
 
         fun bind(ffnf: FFNF){
             val imageView:ImageView = itemView.findViewById(R.id.ffnf_image)
