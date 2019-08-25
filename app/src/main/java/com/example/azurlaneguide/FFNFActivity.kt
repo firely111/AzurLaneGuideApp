@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 
-class FFNFShipsActivity : MenuActivity() {
+class FFNFActivity : MenuActivity() {
 
     val ffnfShip: ArrayList<FFNF> = ArrayList()
 
@@ -18,7 +18,7 @@ class FFNFShipsActivity : MenuActivity() {
 
         addFFNFShip()
 
-        val adapter = FFNFShipsAdapter(ffnfShip)
+        val adapter = FFNFAdapter(ffnfShip)
         recyclerView.adapter = adapter
     }
 

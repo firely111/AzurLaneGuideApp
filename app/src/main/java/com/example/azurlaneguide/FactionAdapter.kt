@@ -8,7 +8,6 @@ import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
-
 class FactionAdapter (val list: ArrayList<Faction>) : RecyclerView.Adapter<FactionViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FactionViewHolder {
@@ -30,12 +29,27 @@ class FactionViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewH
         Picasso.get().load(faction.image).into(imageView)
     }
 
+    companion object{
+        val FACTION_KEY = "FACTION"
+    }
+
     init {
         view.setOnClickListener{
 
+            // TODO: Add all other factions
             when (image){
+                0 -> {
+                    val intent = Intent(view.context, CategoryActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
                 2 -> {
-                   val intent = Intent(view.context, FFNFShipsActivity::class.java)
+                   val intent = Intent(view.context, FFNFActivity::class.java)
+                    view.context.startActivity(intent)
+                }
+                3 -> {
+                    val intent = Intent(view.context, CategoryActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
                 else -> println("KAPPA")

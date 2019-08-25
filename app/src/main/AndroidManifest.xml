@@ -11,7 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".KmsShipsActivity" />
+
+        <activity android:name=".KMSActivity"
+            android:label="Ironblood Ships"
+            android:launchMode="singleTop">
+        <meta-data android:name="android.support.PARENT_ACTIVITY"
+            android:value=".CategoryActivity"/>
+        </activity>
+
+        <activity android:name=".KMSEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".KMSActivity"/>
+        </activity>
 
         <activity android:name=".FactionActivity"
             android:launchMode="singleTop">
@@ -22,22 +34,29 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FFNFShipsActivity"
+        <activity android:name=".FFNFActivity"
             android:label="Iris Libre Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FactionActivity"/>
         </activity>
 
-        <activity android:name=".FFNFEquipmentImageActivity"
+        <activity android:name=".FFNFEquipmentActivity"
             android:launchMode="singleTop">
         <meta-data android:name="android.support.PARENT_ACTIVITY"
-            android:value=".FFNFShipsActivity"/>
+            android:value=".FFNFActivity"/>
         </activity>
 
         <activity android:name=".AboutActivity"
             android:label="About"
             android:launchMode="singleTop">
+        </activity>
+
+        <activity android:name=".CategoryActivity"
+            android:label="Ship Category"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FactionActivity"/>
         </activity>
 
     </application>

@@ -4,7 +4,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import com.squareup.picasso.Picasso
 
-class FFNFEquipmentImageActivity : MenuActivity() {
+class FFNFEquipmentActivity : MenuActivity() {
 
     val emileBertin = "https://i.imgur.com/UvcLUT9.png"
     val forbin = "https://i.imgur.com/zlzt4R0.png"
@@ -17,10 +17,10 @@ class FFNFEquipmentImageActivity : MenuActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView((R.layout.activity_ffnf_equipment_image))
+        setContentView((R.layout.activity_ffnf_equipment))
 
-        val image = intent.getIntExtra(FFNFShipsAdapter.FFNFViewHolder.IMAGE_KEY, -1)
-        val imageView: ImageView = findViewById(R.id.equipment_image)
+        val image = intent.getIntExtra(FFNFViewHolder.IMAGE_KEY, -1)
+        val imageView: ImageView = findViewById(R.id.ffnf_equipment_image)
         when (image){
             0 -> {
                 Picasso.get().load(emileBertin).into(imageView)
