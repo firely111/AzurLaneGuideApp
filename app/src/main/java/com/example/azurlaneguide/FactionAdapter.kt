@@ -26,7 +26,7 @@ class FactionViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewH
 
     fun bind(faction: Faction){
         val imageView: ImageView = itemView.findViewById(R.id.faction_image)
-        Picasso.get().load(faction.image).into(imageView)
+        Picasso.get().load(faction.image).fit().into(imageView)
     }
 
     companion object{
@@ -35,10 +35,13 @@ class FactionViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewH
 
     init {
         view.setOnClickListener{
-
-            // TODO: Add all other factions
             when (image){
                 0 -> {
+                    val intent = Intent(view.context, AboutActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                1 -> {
                     val intent = Intent(view.context, CategoryActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
@@ -52,7 +55,30 @@ class FactionViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewH
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
-                else -> println("KAPPA")
+                4 -> {
+                    val intent = Intent(view.context, AboutActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                5 -> {
+                    val intent = Intent(view.context, CategoryActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                6 -> {
+                    val intent = Intent(view.context, CategoryActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                7 -> {
+                    val intent = Intent(view.context, AboutActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                else -> {
+                    val intent = Intent(view.context, FactionActivity::class.java)
+                    view.context.startActivity(intent)
+                }
             }
         }
     }

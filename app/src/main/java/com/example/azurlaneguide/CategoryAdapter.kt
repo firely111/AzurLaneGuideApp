@@ -28,7 +28,7 @@ class CategoryViewHolder(view: View, var image: Int? = null) : RecyclerView.View
 
     fun bind(category: Category){
         val imageView: ImageView = itemView.findViewById(R.id.category_image)
-        Picasso.get().load(category.image).into(imageView)
+        Picasso.get().load(category.image).fit().into(imageView)
     }
 
     companion object{

@@ -28,7 +28,7 @@ class CategoryActivity : MenuActivity() {
     }
 
     fun addCategory() {
-        val destroyer = "https://i.imgur.com/clGqyyN.png"
+        val destroyer = "https://i.imgur.com/ppVvYb3.png"
         val l_cruiser = "https://i.imgur.com/LADxoCN.png"
         val h_cruiser = "https://i.imgur.com/mDkd7Eu.png"
         val battleship = "https://i.imgur.com/fierJci.png"
