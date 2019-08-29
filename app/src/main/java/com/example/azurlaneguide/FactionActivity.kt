@@ -22,9 +22,9 @@ class FactionActivity : MenuActivity() {
 
     fun addFaction(){
         val dragon_empery = "https://i.imgur.com/ZrIFyqy.jpg"
-        val eagle_union = "https://i.imgur.com/gQP7I3z.jpg"
+        val eagle_union = "https://i.imgur.com/QtCRkY3.jpg"
         val iris_libre = "https://i.imgur.com/51vmeac.jpg"
-        val ironblood = "https://i.imgur.com/dWCaXGY.jpg"
+        val ironblood = "https://i.imgur.com/mfhsNIT.jpg"
         val northern_parliament = "https://i.imgur.com/uNsUmIm.png"
         val royal_navy = "https://i.imgur.com/P6awAK8.png"
         val sakura_empire = "https://i.imgur.com/w49gVNx.jpg"
