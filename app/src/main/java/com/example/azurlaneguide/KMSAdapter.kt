@@ -27,7 +27,7 @@ class KMSViewHolder(view: View, var image :Int? = null) : RecyclerView.ViewHolde
 
     fun bind(kms: KMS){
         val imageView: ImageView = itemView.findViewById(R.id.kms_image)
-        Picasso.get().load(kms.image).into(imageView)
+        Picasso.get().load(kms.image).fit().into(imageView)
     }
 
     companion object{
