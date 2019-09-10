@@ -36,40 +36,48 @@ class FactionViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewH
     init {
         view.setOnClickListener{
             when (image){
+                //Dragon Empery
                 0 -> {
-                    val intent = Intent(view.context, AboutActivity::class.java)
+                    val intent = Intent(view.context, ROCActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                //Eagle Union
                 1 -> {
                     val intent = Intent(view.context, CategoryActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                //Iris Libre
                 2 -> {
                    val intent = Intent(view.context, FFNFActivity::class.java)
                     view.context.startActivity(intent)
                 }
+                //IronBlood
                 3 -> {
                     val intent = Intent(view.context, CategoryActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                //Northern Parliament
                 4 -> {
                     val intent = Intent(view.context, AboutActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                //Royal Navy
                 5 -> {
                     val intent = Intent(view.context, CategoryActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                //Sakura Empire
                 6 -> {
                     val intent = Intent(view.context, CategoryActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                //Vichya Dominion
                 7 -> {
                     val intent = Intent(view.context, AboutActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)

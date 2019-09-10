@@ -1,5 +1,7 @@
 package com.example.azurlaneguide
 
+data class ROC(var image: String)
+
 data class FFNF(var image: String)
 
 data class KMS(var image: String)

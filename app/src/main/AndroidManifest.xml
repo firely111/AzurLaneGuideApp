@@ -12,6 +12,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".FactionActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".CategoryActivity"
+            android:label="Ship Category"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FactionActivity"/>
+        </activity>
+
+        <activity android:name=".ROCActivity"
+            android:label="Dragon Empery Ships"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FactionActivity"/>
+        </activity>
+
+        <activity android:name=".ROCEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ROCActivity"/>
+        </activity>
+
         <activity android:name=".KMSActivity"
             android:label="Ironblood Ships"
             android:launchMode="singleTop">
@@ -23,15 +52,6 @@
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".KMSActivity"/>
-        </activity>
-
-        <activity android:name=".FactionActivity"
-            android:launchMode="singleTop">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".FFNFActivity"
@@ -50,13 +70,6 @@
         <activity android:name=".AboutActivity"
             android:label="About"
             android:launchMode="singleTop">
-        </activity>
-
-        <activity android:name=".CategoryActivity"
-            android:label="Ship Category"
-            android:launchMode="singleTop">
-            <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
         </activity>
 
     </application>
