@@ -77,8 +77,14 @@ class FactionViewHolder(view: View, var image: Int? = null) : RecyclerView.ViewH
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
-                //Vichya Dominion
+                //Sardegna Empire
                 7 -> {
+                    val intent = Intent(view.context, AboutActivity::class.java)
+                    intent.putExtra(FACTION_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                //Vichya Dominion
+                8 -> {
                     val intent = Intent(view.context, AboutActivity::class.java)
                     intent.putExtra(FACTION_KEY, image as Int)
                     view.context.startActivity(intent)

@@ -23,21 +23,21 @@ class FFNFActivity : MenuActivity() {
     }
 
     fun addFFNFShip(){
-        val emile_bertin = "https://i.imgur.com/1MqX4Mv.png"
-        val forbin = "https://i.imgur.com/gBeecs3.png"
-        val l_opiniatre = "https://i.imgur.com/cKbVFd8.png"
-        val le_temeraire = "https://i.imgur.com/4zLKb3g.png"
-        val le_triomphant = "https://i.imgur.com/jUuLk5b.png"
-        val saint_louis = "https://i.imgur.com/fVtTkGv.png"
-        val surcouf = "https://i.imgur.com/URyq2Wv.png"
+        val emileBertin = "https://i.imgur.com/GBH7SYM.png"
+        val forbin = "https://i.imgur.com/XG7OOhp.png"
+        val lOpiniatre = "https://i.imgur.com/AL6sHgB.png"
+        val leTemeraire = "https://i.imgur.com/xa9b4Av.png"
+        val leTriomphant = "https://i.imgur.com/gavKxpC.png"
+        val saintLouis = "https://i.imgur.com/eMrkbpm.png"
+        val surcouf = "https://i.imgur.com/UOVBbue.png"
 
 
-        ffnfShip.add(FFNF(emile_bertin))
+        ffnfShip.add(FFNF(emileBertin))
         ffnfShip.add(FFNF(forbin))
-        ffnfShip.add(FFNF(l_opiniatre))
-        ffnfShip.add(FFNF(le_temeraire))
-        ffnfShip.add(FFNF(le_triomphant))
-        ffnfShip.add(FFNF(saint_louis))
+        ffnfShip.add(FFNF(lOpiniatre))
+        ffnfShip.add(FFNF(leTemeraire))
+        ffnfShip.add(FFNF(leTriomphant))
+        ffnfShip.add(FFNF(saintLouis))
         ffnfShip.add(FFNF(surcouf))
     }
 }

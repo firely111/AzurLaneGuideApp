@@ -32,7 +32,7 @@ class FFNFAdapter(val list: ArrayList<FFNF>) : RecyclerView.Adapter<FFNFViewHold
 
         fun bind(ffnf: FFNF){
             val imageView:ImageView = itemView.findViewById(R.id.ffnf_image)
-            Picasso.get().load(ffnf.image).into(imageView)
+            Picasso.get().load(ffnf.image).fit().into(imageView)
         }
 
         companion object{

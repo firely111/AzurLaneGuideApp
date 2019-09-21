@@ -41,6 +41,20 @@
                 android:value=".ROCActivity"/>
         </activity>
 
+        <activity android:name=".USSActivity"
+            android:label="Eagle Union Ships"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CategoryActivity"/>
+        </activity>
+
+        <activity android:name=".USSEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".USSActivity"/>
+        </activity>
+
+
         <activity android:name=".KMSActivity"
             android:label="Ironblood Ships"
             android:launchMode="singleTop">

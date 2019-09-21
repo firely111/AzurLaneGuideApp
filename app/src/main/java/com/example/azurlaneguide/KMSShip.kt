@@ -41,38 +41,38 @@ object KMSShip : KMSActivity() {
     }
 
     fun addKMSHeavyCruiser(){
-        val admiral_graf_spee = "https://i.imgur.com/mwmUYs9.png"
-        val admiral_hipper = "https://i.imgur.com/KjkAhvF.png"
+        val admiralGrafSpee = "https://i.imgur.com/mwmUYs9.png"
+        val admiralHipper = "https://i.imgur.com/KjkAhvF.png"
         val deutschland = "https://i.imgur.com/OD1ExAF.png"
-        val prinz_eugen = "https://i.imgur.com/fYHRzfR.png"
+        val prinzEugen = "https://i.imgur.com/fYHRzfR.png"
         val roon = "https://i.imgur.com/6H4YNzJ.png"
 
-        kmsShip.add(KMS(admiral_graf_spee))
-        kmsShip.add(KMS(admiral_hipper))
+        kmsShip.add(KMS(admiralGrafSpee))
+        kmsShip.add(KMS(admiralHipper))
         kmsShip.add(KMS(deutschland))
-        kmsShip.add(KMS(prinz_eugen))
+        kmsShip.add(KMS(prinzEugen))
         kmsShip.add(KMS(roon))
     }
 
     fun addKMSBattleship(){
         val bismarck = "https://i.imgur.com/v4H0R1Z.png"
-        val friedrich_der_grosse = "https://i.imgur.com/6gfkb99.png"
+        val friedrichDerGrosse = "https://i.imgur.com/6gfkb99.png"
         val gneisenau = "https://i.imgur.com/YPdsBvu.png"
         val scharnhorst = "https://i.imgur.com/6KwMujW.png"
         val tirpitz = "https://i.imgur.com/TuaQ7Qh.png"
 
         kmsShip.add(KMS(bismarck))
-        kmsShip.add(KMS(friedrich_der_grosse))
+        kmsShip.add(KMS(friedrichDerGrosse))
         kmsShip.add(KMS(gneisenau))
         kmsShip.add(KMS(scharnhorst))
         kmsShip.add(KMS(tirpitz))
     }
 
     fun addKMSAircraftCarrier(){
-        val graf_zeppelin = "https://i.imgur.com/fwmVvpa.png"
+        val grafZeppelin = "https://i.imgur.com/fwmVvpa.png"
         val zeppy = "https://i.imgur.com/7qmNXtU.png"
 
-        kmsShip.add(KMS(graf_zeppelin))
+        kmsShip.add(KMS(grafZeppelin))
         kmsShip.add(KMS(zeppy))
     }
 

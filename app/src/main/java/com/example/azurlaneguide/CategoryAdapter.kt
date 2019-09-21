@@ -37,13 +37,31 @@ class CategoryViewHolder(view: View, var image: Int? = null) : RecyclerView.View
 
     init {
         view.setOnClickListener{
-// TODO: Add redirection to Eagle Union, Royal Navy, Sakura Empire
             when (faction){
+                // Eagle Union
+                1 -> {
+                    val intent = Intent(view.context, USSActivity::class.java)
+                    intent.putExtra(CATEGORY_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                // IronBlood
                 3 -> {
                     val intent = Intent(view.context, KMSActivity::class.java)
                     intent.putExtra(CATEGORY_KEY, image as Int)
                     view.context.startActivity(intent)
                 }
+                // Royal Navy
+                5 -> {
+                    val intent = Intent(view.context, KMSActivity::class.java)
+                    intent.putExtra(CATEGORY_KEY, image as Int)
+                    view.context.startActivity(intent)
+                }
+                // Sakura Empire
+                6 -> {
+                val intent = Intent(view.context, KMSActivity::class.java)
+                intent.putExtra(CATEGORY_KEY, image as Int)
+                view.context.startActivity(intent)
+            }
                 else -> println(faction)
             }
         }
