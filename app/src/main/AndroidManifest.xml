@@ -54,6 +54,18 @@
                 android:value=".USSActivity"/>
         </activity>
 
+        <activity android:name=".FFNFActivity"
+            android:label="Iris Libre Ships"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FactionActivity"/>
+        </activity>
+
+        <activity android:name=".FFNFEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FFNFActivity"/>
+        </activity>
 
         <activity android:name=".KMSActivity"
             android:label="Ironblood Ships"
@@ -68,17 +80,56 @@
                 android:value=".KMSActivity"/>
         </activity>
 
-        <activity android:name=".FFNFActivity"
-            android:label="Iris Libre Ships"
+        <activity android:name=".SNActivity"
+            android:label="Northern Parliament Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".FactionActivity"/>
         </activity>
 
-        <activity android:name=".FFNFEquipmentActivity"
+        <activity android:name=".SNEquipmentActivity"
             android:launchMode="singleTop">
-        <meta-data android:name="android.support.PARENT_ACTIVITY"
-            android:value=".FFNFActivity"/>
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SNActivity"/>
+        </activity>
+
+        <activity android:name=".HMSActivity"
+            android:label="Royal Navy Ships"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CategoryActivity"/>
+        </activity>
+
+        <activity android:name=".HMSEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HMSActivity"/>
+        </activity>
+
+        <activity android:name=".RNActivity"
+            android:label="Sardegna Empire Ships"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FactionActivity"/>
+        </activity>
+
+        <activity android:name=".RNEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RNActivity"/>
+        </activity>
+
+        <activity android:name=".MNFActivity"
+            android:label="Vichya Dominion Ships"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FactionActivity"/>
+        </activity>
+
+        <activity android:name=".MNFEquipmentActivity"
+            android:launchMode="singleTop">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MNFActivity"/>
         </activity>
 
         <activity android:name=".AboutActivity"

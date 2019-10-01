@@ -52,7 +52,7 @@ class CategoryViewHolder(view: View, var image: Int? = null) : RecyclerView.View
                 }
                 // Royal Navy
                 5 -> {
-                    val intent = Intent(view.context, KMSActivity::class.java)
+                    val intent = Intent(view.context, HMSActivity::class.java)
                     intent.putExtra(CATEGORY_KEY, image as Int)
                     view.context.startActivity(intent)
                 }

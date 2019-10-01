@@ -118,7 +118,7 @@ object USSShip : USSActivity() {
         ussShip.add(USS(seattle))
         ussShip.add(USS(stLouis))
     }
-// TODO: EVERYTHING BELOW THIS
+
     fun addUSSHeavyCruiser(){
         val astoria = "https://i.imgur.com/ev6XsBR.png"
         val baltimore = "https://i.imgur.com/SwoOpML.png"
