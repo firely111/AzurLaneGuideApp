@@ -58,7 +58,7 @@ class CategoryViewHolder(view: View, var image: Int? = null) : RecyclerView.View
                 }
                 // Sakura Empire
                 6 -> {
-                val intent = Intent(view.context, KMSActivity::class.java)
+                val intent = Intent(view.context, IJNActivity::class.java)
                 intent.putExtra(CATEGORY_KEY, image as Int)
                 view.context.startActivity(intent)
             }

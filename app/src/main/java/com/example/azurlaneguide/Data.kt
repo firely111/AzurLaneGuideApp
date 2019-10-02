@@ -10,6 +10,8 @@ data class KMS(var image: String)
 
 data class HMS(var image: String)
 
+data class IJN(var image: String)
+
 data class SN(var image: String)
 
 data class RN(var image: String)
