@@ -6,13 +6,13 @@ import com.squareup.picasso.Picasso
 
 class FFNFEquipmentActivity : MenuActivity() {
 
-    val emileBertin = "https://i.imgur.com/UvcLUT9.png"
-    val forbin = "https://i.imgur.com/zlzt4R0.png"
-    val lOpiniatre = "https://i.imgur.com/g5RBc23.png" // Not in EN Yet
-    val leTemeraire = "https://i.imgur.com/zlzt4R0.png"
-    val leTriomphant = "https://i.imgur.com/zlzt4R0.png"
-    val saintLouis = "https://i.imgur.com/33xKFay.png"
-    val surcouf = "https://i.imgur.com/hQn6mc5.png"
+    val emileBertin = "https://i.imgur.com/w8T9JT2.png"
+    val forbin = "https://i.imgur.com/NdbLZsU.png"
+    val lOpiniatre = "https://i.imgur.com/NdbLZsU.png" // Not in EN Yet
+    val leTemeraire = "https://i.imgur.com/NdbLZsU.png"
+    val leTriomphant = "https://i.imgur.com/NdbLZsU.png"
+    val saintLouis = "https://i.imgur.com/xy0RQek.png"
+    val surcouf = "https://i.imgur.com/nw7tWom.png"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

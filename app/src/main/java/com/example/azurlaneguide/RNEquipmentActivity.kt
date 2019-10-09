@@ -5,13 +5,13 @@ import android.widget.ImageView
 import com.squareup.picasso.Picasso
 
 class RNEquipmentActivity : MenuActivity() {
-// TODO: Update
-    val carabiniere = "https://i.imgur.com/3wPgtJQ.png"
-    val conteDiCavour = "https://i.imgur.com/73XjhIZ.png"
-    val giulioCesare = "https://i.imgur.com/WDaXm6I.png"
-    val littorio = "https://i.imgur.com/6ARLlXq.png"
-    val trento = "https://i.imgur.com/4L6Qqrk.png"
-    val zara = "https://i.imgur.com/m9VgNyC.png"
+
+    val carabiniere = "https://i.imgur.com/NdbLZsU.png"
+    val conteDiCavour = "https://i.imgur.com/4TBHDeH.png"
+    val giulioCesare = "https://i.imgur.com/4TBHDeH.png"
+    val littorio = "https://i.imgur.com/G4wK7Lr.png"
+    val trento = "https://i.imgur.com/koKsQXU.png"
+    val zara = "https://i.imgur.com/vC2mrVG.png"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

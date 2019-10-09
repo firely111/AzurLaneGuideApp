@@ -6,13 +6,13 @@ import com.squareup.picasso.Picasso
 
 class ROCEquipmentActivity : MenuActivity() {
 
-    val anShan = "https://i.imgur.com/VAIDc5D.png"
-    val changChun = "https://i.imgur.com/VAIDc5D.png"
-    val fuShun = "https://i.imgur.com/VAIDc5D.png"
-    val ningHai = "https://i.imgur.com/V3ozULt.png"
-    val pingHai = "https://i.imgur.com/V3ozULt.png"
-    val taiYuan = "https://i.imgur.com/4EBCPxA.png"
-    val yatSen = "https://i.imgur.com/LZO01h6.png"
+    val anShan = "https://i.imgur.com/NdbLZsU.png"
+    val changChun = "https://i.imgur.com/NdbLZsU.png"
+    val fuShun = "https://i.imgur.com/NdbLZsU.png"
+    val ningHai = "https://i.imgur.com/w8T9JT2.png"
+    val pingHai = "https://i.imgur.com/w8T9JT2.png"
+    val taiYuan = "https://i.imgur.com/NdbLZsU.png"
+    val yatSen = "https://i.imgur.com/iH4m9M5.png"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

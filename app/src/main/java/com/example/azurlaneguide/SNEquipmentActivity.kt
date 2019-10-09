@@ -5,8 +5,8 @@ import android.widget.ImageView
 import com.squareup.picasso.Picasso
 
 class SNEquipmentActivity : MenuActivity() {
-//TODO: Update
-    val avrora = "https://i.imgur.com/UvcLUT9.png"
+
+    val avrora = "https://i.imgur.com/w8T9JT2.png"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

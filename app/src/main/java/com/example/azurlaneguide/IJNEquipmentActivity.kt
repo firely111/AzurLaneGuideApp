@@ -363,7 +363,7 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Izumo"
             }
             9 -> {
-                Picasso.get().load(IJNEquipmentImage.kagaB).into(imageView)
+                Picasso.get().load(IJNEquipmentImage.kaga).into(imageView)
                 supportActionBar?.title = "Kaga"
             }
             10 -> {
@@ -428,7 +428,7 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Junyou"
             }
             7 -> {
-                Picasso.get().load(IJNEquipmentImage.kaga).into(imageView)
+                Picasso.get().load(IJNEquipmentImage.kagaB).into(imageView)
                 supportActionBar?.title = "Kaga"
             }
             8 -> {
