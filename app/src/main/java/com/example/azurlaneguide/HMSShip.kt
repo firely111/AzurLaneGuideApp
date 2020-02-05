@@ -59,9 +59,12 @@ object HMSShip : HMSActivity() {
         val blackPrince = "https://i.imgur.com/TWgyxRm.png"
         val curacoa = "https://i.imgur.com/aZaaBVV.png"
         val curlew = "https://i.imgur.com/MzbbLYn.png"
+        val dido = "https://i.imgur.com/VWGMWsi.jpg"
         val edinburgh = "https://i.imgur.com/aDHxecW.png"
         val fiji = "https://i.imgur.com/jrViHbA.png"
         val galatea = "https://i.imgur.com/8i5qBPy.png"
+        val glasgow = "https://i.imgur.com/HpWO7Df.png"
+        val gloucester = "https://i.imgur.com/jj0Brak.jpg"
         val neptune = "https://i.imgur.com/MLULV9V.png"
         val jamaica = "https://i.imgur.com/fR0h7NE.png"
         val leander = "https://i.imgur.com/I28Advg.png"
@@ -80,9 +83,12 @@ object HMSShip : HMSActivity() {
         hmsShip.add(HMS(blackPrince))
         hmsShip.add(HMS(curacoa))
         hmsShip.add(HMS(curlew))
+        hmsShip.add(HMS(dido))
         hmsShip.add(HMS(edinburgh))
         hmsShip.add(HMS(fiji))
         hmsShip.add(HMS(galatea))
+        hmsShip.add(HMS(glasgow))
+        hmsShip.add(HMS(gloucester))
         hmsShip.add(HMS(neptune))
         hmsShip.add(HMS(jamaica))
         hmsShip.add(HMS(leander))

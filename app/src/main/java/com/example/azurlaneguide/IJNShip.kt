@@ -15,11 +15,13 @@ object IJNShip : IJNActivity() {
         val hatakaze = "https://i.imgur.com/huvUJVn.png"
         val hatsuharu = "https://i.imgur.com/lNlddVO.png"
         val hatsushimo = "https://i.imgur.com/d1MhZcK.png"
+        val hibiki = "https://i.imgur.com/AJWue7W.jpg"
         val ikazuchi = "https://i.imgur.com/SBfLPtp.png"
         val inazuma = "https://i.imgur.com/qr6mhfs.png"
         val isokaze = "https://i.imgur.com/113hz9j.png"
         val kagerou = "https://i.imgur.com/rz6Hw2B.png"
         val kamikaze = "https://i.imgur.com/c4jrBrn.png"
+        val kasumi = "https://i.imgur.com/cBeH6GV.jpg"
         val kawakaze = "https://i.imgur.com/0Gqs5ow.png"
         val kisaragi = "https://i.imgur.com/tGleRvV.png"
         val kitakaze = "https://i.imgur.com/tiQx8PV.png"
@@ -41,6 +43,7 @@ object IJNShip : IJNActivity() {
         val shiratsuyu = "https://i.imgur.com/PJTcRlF.png"
         val tanikaze = "https://i.imgur.com/oWoIAch.png"
         val urakaze = "https://i.imgur.com/JHUgjNF.png"
+        val uranami = "https://i.imgur.com/QWOTR6Y.jpg"
         val uzuki = "https://i.imgur.com/fgO1FjE.png"
         val wakaba = "https://i.imgur.com/EXvRJW3.png"
         val yoizuki = "https://i.imgur.com/8mTUVF1.png"
@@ -60,11 +63,13 @@ object IJNShip : IJNActivity() {
         ijnShip.add(IJN(hatakaze))
         ijnShip.add(IJN(hatsuharu))
         ijnShip.add(IJN(hatsushimo))
+        ijnShip.add(IJN(hibiki))
         ijnShip.add(IJN(ikazuchi))
         ijnShip.add(IJN(inazuma))
         ijnShip.add(IJN(isokaze))
         ijnShip.add(IJN(kagerou))
         ijnShip.add(IJN(kamikaze))
+        ijnShip.add(IJN(kasumi))
         ijnShip.add(IJN(kawakaze))
         ijnShip.add(IJN(kisaragi))
         ijnShip.add(IJN(kitakaze))
@@ -86,6 +91,7 @@ object IJNShip : IJNActivity() {
         ijnShip.add(IJN(shiratsuyu))
         ijnShip.add(IJN(tanikaze))
         ijnShip.add(IJN(urakaze))
+        ijnShip.add(IJN(uranami))
         ijnShip.add(IJN(uzuki))
         ijnShip.add(IJN(wakaba))
         ijnShip.add(IJN(yoizuki))
@@ -99,10 +105,12 @@ object IJNShip : IJNActivity() {
         val agano = "https://i.imgur.com/zK1weP8.png"
         val isuzu = "https://i.imgur.com/PaSIQpP.png"
         val jintsuu = "https://i.imgur.com/xZgGgof.png"
+        val kinu = "https://i.imgur.com/Qf36Ge4.jpg"
         val mikuma = "https://i.imgur.com/Sn0GeSu.png"
         val mogami = "https://i.imgur.com/7EnWCXl.png"
         val nagara = "https://i.imgur.com/aayWJ9W.png"
         val naka = "https://i.imgur.com/UR5497v.png"
+        val noshiro = "https://i.imgur.com/yP4E3Bb.jpg"
         val sendai = "https://i.imgur.com/QO4hNuW.png"
         val yuubari = "https://i.imgur.com/2518bzl.png"
 
@@ -110,10 +118,12 @@ object IJNShip : IJNActivity() {
         ijnShip.add(IJN(agano))
         ijnShip.add(IJN(isuzu))
         ijnShip.add(IJN(jintsuu))
+        ijnShip.add(IJN(kinu))
         ijnShip.add(IJN(mikuma))
         ijnShip.add(IJN(mogami))
         ijnShip.add(IJN(nagara))
         ijnShip.add(IJN(naka))
+        ijnShip.add(IJN(noshiro))
         ijnShip.add(IJN(sendai))
         ijnShip.add(IJN(yuubari))
     }
@@ -164,6 +174,7 @@ object IJNShip : IJNActivity() {
         val mikasa = "https://i.imgur.com/lDAuHr0.png"
         val mutsu = "https://i.imgur.com/rTBfyZL.png"
         val nagato = "https://i.imgur.com/VamlGlU.png"
+        val suruga = "https://i.imgur.com/cjN7yZU.jpg"
         val yamashiro = "https://i.imgur.com/EZXxtDP.png"
 
         ijnShip.add(IJN(amagi))
@@ -181,6 +192,7 @@ object IJNShip : IJNActivity() {
         ijnShip.add(IJN(mikasa))
         ijnShip.add(IJN(mutsu))
         ijnShip.add(IJN(nagato))
+        ijnShip.add(IJN(suruga))
         ijnShip.add(IJN(yamashiro))
     }
 
@@ -193,6 +205,7 @@ object IJNShip : IJNActivity() {
         val houshou = "https://i.imgur.com/KYwvbqO.png"
         val junyou = "https://i.imgur.com/34EfQiZ.png"
         val kaga = "https://i.imgur.com/xs6a0k5.png"
+        val ryuuhou = "https://i.imgur.com/mwoCTQu.jpg"
         val ryuujou = "https://i.imgur.com/cbyYHdP.png"
         val shouhou = "https://i.imgur.com/7ueDO2d.png"
         val shoukaku = "https://i.imgur.com/lxPygOh.png"
@@ -208,6 +221,7 @@ object IJNShip : IJNActivity() {
         ijnShip.add(IJN(houshou))
         ijnShip.add(IJN(junyou))
         ijnShip.add(IJN(kaga))
+        ijnShip.add(IJN(ryuuhou))
         ijnShip.add(IJN(ryuujou))
         ijnShip.add(IJN(shouhou))
         ijnShip.add(IJN(shoukaku))

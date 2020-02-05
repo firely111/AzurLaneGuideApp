@@ -1,7 +1,7 @@
 package com.example.azurlaneguide
 
 object IJNEquipmentImage : IJNEquipmentActivity() {
-
+//TODO: uranami, kasumi, hibiki, hoshiro, kinu, suruga, ryuuhou
     // Destroyers
     const val akatsuki = "https://i.imgur.com/NdbLZsU.png"
     const val arashio = "https://i.imgur.com/NdbLZsU.png"
@@ -15,11 +15,13 @@ object IJNEquipmentImage : IJNEquipmentActivity() {
     const val hatakaze = "https://i.imgur.com/NdbLZsU.png"
     const val hatsuharu = "https://i.imgur.com/NdbLZsU.png"
     const val hatsushimo = "https://i.imgur.com/NdbLZsU.png"
+    const val hibiki = "https://i.imgur.com/NdbLZsU.png"
     const val ikazuchi = "https://i.imgur.com/NdbLZsU.png"
     const val inazuma = "https://i.imgur.com/NdbLZsU.png"
     const val isokaze = "https://i.imgur.com/NdbLZsU.png"
     const val kagerou = "https://i.imgur.com/NdbLZsU.png"
     const val kamikaze = "https://i.imgur.com/NdbLZsU.png"
+    const val kasumi = "https://i.imgur.com/NdbLZsU.png"
     const val kawakaze = "https://i.imgur.com/f4DOm5O.png"
     const val kisaragi = "https://i.imgur.com/NdbLZsU.png"
     const val kitakaze = "https://i.imgur.com/7SMcJMl.png"
@@ -41,6 +43,7 @@ object IJNEquipmentImage : IJNEquipmentActivity() {
     const val shiratsuyu = "https://i.imgur.com/NdbLZsU.png"
     const val tanikaze = "https://i.imgur.com/NdbLZsU.png"
     const val urakaze = "https://i.imgur.com/NdbLZsU.png"
+    const val uranami = "https://i.imgur.com/NdbLZsU.png"
     const val uzuki = "https://i.imgur.com/NdbLZsU.png"
     const val wakaba = "https://i.imgur.com/NdbLZsU.png"
     const val yoizuki = "https://i.imgur.com/NdbLZsU.png"
@@ -53,10 +56,12 @@ object IJNEquipmentImage : IJNEquipmentActivity() {
     const val agano = "https://i.imgur.com/LnjlKiG.png"
     const val isuzu = "https://i.imgur.com/SZmo64B.png"
     const val jintsuu = "https://i.imgur.com/LnjlKiG.png"
+    const val kinu = "https://i.imgur.com/LnjlKiG.png"
     const val mikuma = "https://i.imgur.com/w8T9JT2.png"
     const val mogami = "https://i.imgur.com/w8T9JT2.png" // CA and CL
     const val nagara = "https://i.imgur.com/w8T9JT2.png"
     const val naka = "https://i.imgur.com/w8T9JT2.png"
+    const val noshiro = "https://i.imgur.com/w8T9JT2.png"
     const val sendai = "https://i.imgur.com/LnjlKiG.png"
     const val yuubari = "https://i.imgur.com/w8T9JT2.png"
 
@@ -91,6 +96,7 @@ object IJNEquipmentImage : IJNEquipmentActivity() {
     const val mikasa = "https://i.imgur.com/4TBHDeH.png"
     const val mutsu = "https://i.imgur.com/kYTO4F2.png"
     const val nagato = "https://i.imgur.com/z2D28CS.png"
+    const val suruga = "https://i.imgur.com/z2D28CS.png"
     const val yamashiro = "https://i.imgur.com/5NS1zAE.png" // 2 pic
 
     //Aircraft Carriers
@@ -102,6 +108,7 @@ object IJNEquipmentImage : IJNEquipmentActivity() {
     const val houshou = "https://i.imgur.com/aLKRpWb.png"
     const val junyou = "https://i.imgur.com/yoNiInt.png"
     const val kaga = "https://i.imgur.com/20lr32T.png"
+    const val ryuuhou = "https://i.imgur.com/U93SOMt.png"
     const val ryuujou = "https://i.imgur.com/U93SOMt.png"
     const val shouhou = "https://i.imgur.com/zp1PJmM.png"
     const val shoukaku = "https://i.imgur.com/20lr32T.png"

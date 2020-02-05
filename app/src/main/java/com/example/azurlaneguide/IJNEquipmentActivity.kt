@@ -60,9 +60,9 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Fumizuki"
             }
             7 -> {
-                Picasso.get().load(IJNEquipmentImage.hamakaze).into(imageView)
-                supportActionBar?.title = "Hamakaze"
-            }
+            Picasso.get().load(IJNEquipmentImage.hamakaze).into(imageView)
+            supportActionBar?.title = "Hamakaze"
+        }
             8 -> {
                 Picasso.get().load(IJNEquipmentImage.harutsuki).into(imageView)
                 supportActionBar?.title = "Harutsuki"
@@ -80,130 +80,142 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Hatsushimo"
             }
             12 -> {
+                Picasso.get().load(IJNEquipmentImage.hibiki).into(imageView)
+                supportActionBar?.title = "Hibiki"
+            }
+            13 -> {
                 Picasso.get().load(IJNEquipmentImage.ikazuchi).into(imageView)
                 supportActionBar?.title = "Ikazuchi"
             }
-            13 -> {
+            14 -> {
                 Picasso.get().load(IJNEquipmentImage.inazuma).into(imageView)
                 supportActionBar?.title = "Inazuma"
             }
-            14 -> {
+            15 -> {
                 Picasso.get().load(IJNEquipmentImage.isokaze).into(imageView)
                 supportActionBar?.title = "Isokaze"
             }
-            15 -> {
+            16 -> {
                 Picasso.get().load(IJNEquipmentImage.kagerou).into(imageView)
                 supportActionBar?.title = "Kagerou"
             }
-            16 -> {
+            17 -> {
                 Picasso.get().load(IJNEquipmentImage.kamikaze).into(imageView)
                 supportActionBar?.title = "Kamikaze"
             }
-            17 -> {
+            18 -> {
+                Picasso.get().load(IJNEquipmentImage.kasumi).into(imageView)
+                supportActionBar?.title = "Kasumi"
+            }
+            19 -> {
                 Picasso.get().load(IJNEquipmentImage.kawakaze).into(imageView)
                 supportActionBar?.title = "Kawakaze"
             }
-            18 -> {
+            20 -> {
                 Picasso.get().load(IJNEquipmentImage.kisaragi).into(imageView)
                 supportActionBar?.title = "Kisaragi"
             }
-            19 -> {
+            21 -> {
                 Picasso.get().load(IJNEquipmentImage.kitakaze).into(imageView)
                 supportActionBar?.title = "Kitakaze"
             }
-            20 -> {
+            22 -> {
                 Picasso.get().load(IJNEquipmentImage.kiyonami).into(imageView)
                 supportActionBar?.title = "Kiyonami"
             }
-            21 -> {
+            23 -> {
                 Picasso.get().load(IJNEquipmentImage.kuroshio).into(imageView)
                 supportActionBar?.title = "Kuroshio"
             }
-            22 -> {
+            24 -> {
                 Picasso.get().load(IJNEquipmentImage.makinami).into(imageView)
                 supportActionBar?.title = "Makinami"
             }
-            23 -> {
+            25 -> {
                 Picasso.get().load(IJNEquipmentImage.matsukaze).into(imageView)
                 supportActionBar?.title = "Matsukaze"
             }
-            24 -> {
+            26 -> {
                 Picasso.get().load(IJNEquipmentImage.michishio).into(imageView)
                 supportActionBar?.title = "Michishio"
             }
-            25 -> {
+            27 -> {
                 Picasso.get().load(IJNEquipmentImage.mikazuki).into(imageView)
                 supportActionBar?.title = "Mikazuki"
             }
-            26 -> {
+            28 -> {
                 Picasso.get().load(IJNEquipmentImage.minazuki).into(imageView)
                 supportActionBar?.title = "Minazuki"
             }
-            27 -> {
+            29 -> {
                 Picasso.get().load(IJNEquipmentImage.mutsuki).into(imageView)
                 supportActionBar?.title = "Mutsuki"
             }
-            28 -> {
+            30 -> {
                 Picasso.get().load(IJNEquipmentImage.nagatsuki).into(imageView)
                 supportActionBar?.title = "Nagatsuki"
             }
-            29 -> {
+            31 -> {
                 Picasso.get().load(IJNEquipmentImage.niizuki).into(imageView)
                 supportActionBar?.title = "Niizuki"
             }
-            30 -> {
+            32 -> {
                 Picasso.get().load(IJNEquipmentImage.nowaki).into(imageView)
                 supportActionBar?.title = "Nowaki"
             }
-            31 -> {
+            33 -> {
                 Picasso.get().load(IJNEquipmentImage.ooshio).into(imageView)
                 supportActionBar?.title = "Ooshio"
             }
-            32 -> {
+            34 -> {
                 Picasso.get().load(IJNEquipmentImage.oyashio).into(imageView)
                 supportActionBar?.title = "Oyashio"
             }
-            33 -> {
+            35 -> {
                 Picasso.get().load(IJNEquipmentImage.shigure).into(imageView)
                 supportActionBar?.title = "Shigure"
             }
-            34 -> {
+            36 -> {
                 Picasso.get().load(IJNEquipmentImage.shiranui).into(imageView)
                 supportActionBar?.title = "Shiranui"
             }
-            35 -> {
+            37 -> {
                 Picasso.get().load(IJNEquipmentImage.shiratsuyu).into(imageView)
                 supportActionBar?.title = "Shiratsuyu"
             }
-            36 -> {
+            38 -> {
                 Picasso.get().load(IJNEquipmentImage.tanikaze).into(imageView)
                 supportActionBar?.title = "Tanikaze"
             }
-            37 -> {
+            39 -> {
                 Picasso.get().load(IJNEquipmentImage.urakaze).into(imageView)
                 supportActionBar?.title = "Urakaze"
             }
-            38 -> {
+            40 -> {
+                Picasso.get().load(IJNEquipmentImage.uranami).into(imageView)
+                supportActionBar?.title = "Uranami"
+            }
+            41 -> {
                 Picasso.get().load(IJNEquipmentImage.uzuki).into(imageView)
                 supportActionBar?.title = "Uzuki"
             }
-            39 -> {
+            42 -> {
                 Picasso.get().load(IJNEquipmentImage.wakaba).into(imageView)
                 supportActionBar?.title = "Wakaba"
             }
-            40 -> {
+            43 -> {
                 Picasso.get().load(IJNEquipmentImage.yoizuki).into(imageView)
                 supportActionBar?.title = "Yoizuki"
             }
-            41 -> {
+            44 -> {
                 Picasso.get().load(IJNEquipmentImage.yukikaze).into(imageView)
                 supportActionBar?.title = "Yukikaze"
             }
-            42 -> {
+            45 -> {
                 Picasso.get().load(IJNEquipmentImage.yuudachi).into(imageView)
                 supportActionBar?.title = "Yuudachi"
             }
-            43 -> {
+            46 -> {
                 Picasso.get().load(IJNEquipmentImage.yuugure).into(imageView)
                 supportActionBar?.title = "Yuugure"
             }
@@ -233,26 +245,34 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Jintsuu"
             }
             4 -> {
+                Picasso.get().load(IJNEquipmentImage.kinu).into(imageView)
+                supportActionBar?.title = "Kinu"
+            }
+            5 -> {
                 Picasso.get().load(IJNEquipmentImage.mikuma).into(imageView)
                 supportActionBar?.title = "Mikuma"
             }
-            5 -> {
+            6 -> {
                 Picasso.get().load(IJNEquipmentImage.mogami).into(imageView)
                 supportActionBar?.title = "Mogami"
             }
-            6 -> {
+            7 -> {
                 Picasso.get().load(IJNEquipmentImage.nagara).into(imageView)
                 supportActionBar?.title = "Nagara"
             }
-            7 -> {
+            8 -> {
                 Picasso.get().load(IJNEquipmentImage.naka).into(imageView)
                 supportActionBar?.title = "Naka"
             }
-            8 -> {
+            9 -> {
+                Picasso.get().load(IJNEquipmentImage.noshiro).into(imageView)
+                supportActionBar?.title = "Noshiro"
+            }
+            10 -> {
                 Picasso.get().load(IJNEquipmentImage.sendai).into(imageView)
                 supportActionBar?.title = "Sendai"
             }
-            9 -> {
+            11 -> {
                 Picasso.get().load(IJNEquipmentImage.yuubari).into(imageView)
                 supportActionBar?.title = "Yuubari"
             }
@@ -387,6 +407,10 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Nagato"
             }
             15 -> {
+                Picasso.get().load(IJNEquipmentImage.suruga).into(imageView)
+                supportActionBar?.title = "Suruga"
+            }
+            16 -> {
                 Picasso.get().load(IJNEquipmentImage.yamashiro).into(imageView)
                 supportActionBar?.title = "Yamashiro"
             }
@@ -432,26 +456,30 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Kaga"
             }
             8 -> {
+                Picasso.get().load(IJNEquipmentImage.ryuuhou).into(imageView)
+                supportActionBar?.title = "Ryuuhou"
+            }
+            9 -> {
                 Picasso.get().load(IJNEquipmentImage.ryuujou).into(imageView)
                 supportActionBar?.title = "Ryuujou"
             }
-            9 -> {
+            10 -> {
                 Picasso.get().load(IJNEquipmentImage.shouhou).into(imageView)
                 supportActionBar?.title = "Shouhou"
             }
-            10 -> {
+            11 -> {
                 Picasso.get().load(IJNEquipmentImage.shoukaku).into(imageView)
                 supportActionBar?.title = "Shoukaku"
             }
-            11 -> {
+            12 -> {
                 Picasso.get().load(IJNEquipmentImage.souryuu).into(imageView)
                 supportActionBar?.title = "Souryuu"
             }
-            12 -> {
+            13 -> {
                 Picasso.get().load(IJNEquipmentImage.taihou).into(imageView)
                 supportActionBar?.title = "Taihou"
             }
-            13 -> {
+            14 -> {
                 Picasso.get().load(IJNEquipmentImage.zuikaku).into(imageView)
                 supportActionBar?.title = "Zuikaku"
             }

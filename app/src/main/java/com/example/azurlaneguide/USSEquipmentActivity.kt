@@ -92,66 +92,70 @@ open class USSEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Gridley"
             }
             15 -> {
+                Picasso.get().load(USSEquipmentImage.halseyPowell).into(imageView)
+                supportActionBar?.title = "Halsey Powell"
+            }
+            16 -> {
                 Picasso.get().load(USSEquipmentImage.hammann).into(imageView)
                 supportActionBar?.title = "Hammann"
             }
-            16 -> {
+            17 -> {
                 Picasso.get().load(USSEquipmentImage.hazelwood).into(imageView)
                 supportActionBar?.title = "Hazelwood"
             }
-            17 -> {
+            18 -> {
                 Picasso.get().load(USSEquipmentImage.hobby).into(imageView)
                 supportActionBar?.title = "Hobby"
             }
-            18 -> {
+            19 -> {
                 Picasso.get().load(USSEquipmentImage.jenkins).into(imageView)
                 supportActionBar?.title = "Jenkins"
             }
-            19 -> {
+            20 -> {
                 Picasso.get().load(USSEquipmentImage.kalk).into(imageView)
                 supportActionBar?.title = "Kalk"
             }
-            20 -> {
+            21 -> {
                 Picasso.get().load(USSEquipmentImage.kimberly).into(imageView)
                 supportActionBar?.title = "Kimberly"
             }
-            21 -> {
+            22 -> {
                 Picasso.get().load(USSEquipmentImage.laffey).into(imageView)
                 supportActionBar?.title = "Laffey"
             }
-            22 -> {
+            23 -> {
                 Picasso.get().load(USSEquipmentImage.maury).into(imageView)
                 supportActionBar?.title = "Maury"
             }
-            23 -> {
+            24 -> {
                 Picasso.get().load(USSEquipmentImage.mccall).into(imageView)
                 supportActionBar?.title = "McCall"
             }
-            24 -> {
+            25 -> {
                 Picasso.get().load(USSEquipmentImage.mullany).into(imageView)
                 supportActionBar?.title = "Mullany"
             }
-            25 -> {
+            26 -> {
                 Picasso.get().load(USSEquipmentImage.nicholas).into(imageView)
                 supportActionBar?.title = "Nicholas"
             }
-            26 -> {
+            27 -> {
                 Picasso.get().load(USSEquipmentImage.radford).into(imageView)
                 supportActionBar?.title = "Radford"
             }
-            27 -> {
+            28 -> {
                 Picasso.get().load(USSEquipmentImage.sims).into(imageView)
                 supportActionBar?.title = "Sims"
             }
-            28 -> {
+            29 -> {
                 Picasso.get().load(USSEquipmentImage.spence).into(imageView)
                 supportActionBar?.title = "Spence"
             }
-            29 -> {
+            30 -> {
                 Picasso.get().load(USSEquipmentImage.stanley).into(imageView)
                 supportActionBar?.title = "Stanley"
             }
-            30 -> {
+            31 -> {
                 Picasso.get().load(USSEquipmentImage.thatcher).into(imageView)
                 supportActionBar?.title = "Thatcher"
             }
@@ -169,90 +173,94 @@ open class USSEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Atlanta"
             }
             1 -> {
+                Picasso.get().load(USSEquipmentImage.biloxi).into(imageView)
+                supportActionBar?.title = "Biloxi"
+            }
+            2 -> {
                 Picasso.get().load(USSEquipmentImage.birmmingham).into(imageView)
                 supportActionBar?.title = "Birmmingham"
             }
-            2 -> {
+            3 -> {
                 Picasso.get().load(USSEquipmentImage.brooklyn).into(imageView)
                 supportActionBar?.title = "Brooklyn"
             }
-            3 -> {
+            4 -> {
                 Picasso.get().load(USSEquipmentImage.clevelad).into(imageView)
                 supportActionBar?.title = "Clevelad"
             }
-            4 -> {
+            5 -> {
                 Picasso.get().load(USSEquipmentImage.cleveland).into(imageView)
                 supportActionBar?.title = "Cleveland"
             }
-            5 -> {
+            6 -> {
                 Picasso.get().load(USSEquipmentImage.columbia).into(imageView)
                 supportActionBar?.title = "Columbia"
             }
-            6 -> {
+            7 -> {
                 Picasso.get().load(USSEquipmentImage.concord).into(imageView)
                 supportActionBar?.title = "Concord"
             }
-            7 -> {
+            8 -> {
                 Picasso.get().load(USSEquipmentImage.denver).into(imageView)
                 supportActionBar?.title = "Denver"
             }
-            8 -> {
+            9 -> {
                 Picasso.get().load(USSEquipmentImage.helena).into(imageView)
                 supportActionBar?.title = "Helena"
             }
-            9 -> {
+            10 -> {
                 Picasso.get().load(USSEquipmentImage.honolulu).into(imageView)
                 supportActionBar?.title = "Honolulu"
             }
-            10 -> {
+            11 -> {
                 Picasso.get().load(USSEquipmentImage.juneau).into(imageView)
                 supportActionBar?.title = "Juneau"
             }
-            11 -> {
+            12 -> {
                 Picasso.get().load(USSEquipmentImage.lena).into(imageView)
                 supportActionBar?.title = "Lena"
             }
-            12 -> {
+            13 -> {
                 Picasso.get().load(USSEquipmentImage.lil_sandy).into(imageView)
                 supportActionBar?.title = "Li'l Sandy"
             }
-            13 -> {
+            14 -> {
                 Picasso.get().load(USSEquipmentImage.memphis).into(imageView)
                 supportActionBar?.title = "Memphis"
             }
-            14 -> {
+            15 -> {
                 Picasso.get().load(USSEquipmentImage.montpelier).into(imageView)
                 supportActionBar?.title = "Montpelier"
             }
-            15 -> {
+            16 -> {
                 Picasso.get().load(USSEquipmentImage.omaha).into(imageView)
                 supportActionBar?.title = "Omaha"
             }
-            16 -> {
+            17 -> {
                 Picasso.get().load(USSEquipmentImage.phoenix).into(imageView)
                 supportActionBar?.title = "Phoenix"
             }
-            17 -> {
+            18 -> {
                 Picasso.get().load(USSEquipmentImage.raleigh).into(imageView)
                 supportActionBar?.title = "Raleigh"
             }
-            18 -> {
+            19 -> {
                 Picasso.get().load(USSEquipmentImage.richmond).into(imageView)
                 supportActionBar?.title = "Richmond"
             }
-            19 -> {
+            20 -> {
                 Picasso.get().load(USSEquipmentImage.san_diego).into(imageView)
                 supportActionBar?.title = "San Diego"
             }
-            20 -> {
+            21 -> {
                 Picasso.get().load(USSEquipmentImage.san_juan).into(imageView)
                 supportActionBar?.title = "San Juan"
             }
-            21 -> {
+            22 -> {
                 Picasso.get().load(USSEquipmentImage.seattle).into(imageView)
                 supportActionBar?.title = "Seattle"
             }
-            22 -> {
+            23 -> {
                 Picasso.get().load(USSEquipmentImage.st_louis).into(imageView)
                 supportActionBar?.title = "St. Louis"
             }

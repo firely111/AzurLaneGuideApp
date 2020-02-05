@@ -160,50 +160,62 @@ open class HMSEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Curlew"
             }
             8 -> {
+                Picasso.get().load(HMSEquipmentImage.dido).into(imageView)
+                supportActionBar?.title = "Dido"
+            }
+            9 -> {
                 Picasso.get().load(HMSEquipmentImage.edinburgh).into(imageView)
                 supportActionBar?.title = "Edinburgh"
             }
-            9 -> {
+            10 -> {
                 Picasso.get().load(HMSEquipmentImage.fiji).into(imageView)
                 supportActionBar?.title = "Fiji"
             }
-            10 -> {
+            11 -> {
                 Picasso.get().load(HMSEquipmentImage.galatea).into(imageView)
                 supportActionBar?.title = "Galatea"
             }
-            11 -> {
+            12 -> {
+                Picasso.get().load(HMSEquipmentImage.glasgow).into(imageView)
+                supportActionBar?.title = "Glasgow"
+            }
+            13 -> {
+                Picasso.get().load(HMSEquipmentImage.gloucester).into(imageView)
+                supportActionBar?.title = "Gloucester"
+            }
+            14 -> {
                 Picasso.get().load(HMSEquipmentImage.neptune).into(imageView)
                 supportActionBar?.title = "Neptune"
             }
-            12 -> {
+            15 -> {
                 Picasso.get().load(HMSEquipmentImage.jamaica).into(imageView)
                 supportActionBar?.title = "Jamaica"
             }
-            13 -> {
+            16 -> {
                 Picasso.get().load(HMSEquipmentImage.leander).into(imageView)
                 supportActionBar?.title = "Leander"
             }
-            14 -> {
+            17 -> {
                 Picasso.get().load(HMSEquipmentImage.littleBel).into(imageView)
                 supportActionBar?.title = "Little Bel"
             }
-            15 -> {
+            18 -> {
                 Picasso.get().load(HMSEquipmentImage.newcastle).into(imageView)
                 supportActionBar?.title = "Newcastle"
             }
-            16 -> {
+            19 -> {
                 Picasso.get().load(HMSEquipmentImage.sheffield).into(imageView)
                 supportActionBar?.title = "Sheffield"
             }
-            17 -> {
+            20 -> {
                 Picasso.get().load(HMSEquipmentImage.sirius).into(imageView)
                 supportActionBar?.title = "Sirius"
             }
-            18 -> {
+            21 -> {
                 Picasso.get().load(HMSEquipmentImage.southampton).into(imageView)
                 supportActionBar?.title = "Southampton"
             }
-            19 -> {
+            22 -> {
                 Picasso.get().load(HMSEquipmentImage.swiftsure).into(imageView)
                 supportActionBar?.title = "Swiftsure"
             }

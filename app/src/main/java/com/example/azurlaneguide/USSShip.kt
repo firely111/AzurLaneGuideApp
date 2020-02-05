@@ -18,6 +18,7 @@ object USSShip : USSActivity() {
         val fletcher = "https://i.imgur.com/nrcF4UU.png"
         val foote = "https://i.imgur.com/HT31Asb.png"
         val gridley = "https://i.imgur.com/KMivyCq.png"
+        val halseyPowell = "https://i.imgur.com/MNlzDpw.jpg"
         val hammann = "https://i.imgur.com/AuHI9AU.png"
         val hazelwood = "https://i.imgur.com/Yd8qv1F.png"
         val hobby = "https://i.imgur.com/uT7XtZN.png"
@@ -51,6 +52,7 @@ object USSShip : USSActivity() {
         ussShip.add(USS(fletcher))
         ussShip.add(USS(foote))
         ussShip.add(USS(gridley))
+        ussShip.add(USS(halseyPowell))
         ussShip.add(USS(hammann))
         ussShip.add(USS(hazelwood))
         ussShip.add(USS(hobby))
@@ -71,6 +73,7 @@ object USSShip : USSActivity() {
 
     fun addUSSLightCruiser(){
         val atlanta = "https://i.imgur.com/bOJTFGs.png"
+        val biloxi = "https://i.imgur.com/wDXWxDn.jpg"
         val birmmingham = "https://i.imgur.com/gFRTuma.png"
         val brooklyn = "https://i.imgur.com/r3MGQL0.png"
         val clevelad = "https://i.imgur.com/Gy86eCu.png"
@@ -95,6 +98,7 @@ object USSShip : USSActivity() {
         val stLouis = "https://i.imgur.com/lE0FmDd.png"
 
         ussShip.add(USS(atlanta))
+        ussShip.add(USS(biloxi))
         ussShip.add(USS(birmmingham))
         ussShip.add(USS(brooklyn))
         ussShip.add(USS(clevelad))
