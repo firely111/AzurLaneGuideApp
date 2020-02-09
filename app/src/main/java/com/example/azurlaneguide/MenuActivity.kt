@@ -24,6 +24,16 @@ open class MenuActivity : AppCompatActivity() {
                 startActivity(intent)
                 true
             }
+            R.id.notes ->{
+                intent = Intent(this,NotesActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.credits ->{
+                intent = Intent(this,CreditsActivity::class.java)
+                startActivity(intent)
+                true
+            }
             else -> super.onOptionsItemSelected(item)
         }
     }

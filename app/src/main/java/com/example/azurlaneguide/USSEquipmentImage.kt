@@ -1,7 +1,7 @@
 package com.example.azurlaneguide
 
 object USSEquipmentImage : USSEquipmentActivity() {
-//TODO: halseyPowell,biloxi
+
     // Destroyers
     const val aulick = "https://i.imgur.com/NdbLZsU.png"
     const val aylwin = "https://i.imgur.com/NdbLZsU.png"
@@ -18,7 +18,7 @@ object USSEquipmentImage : USSEquipmentActivity() {
     const val fletcher = "https://i.imgur.com/NdbLZsU.png"
     const val foote = "https://i.imgur.com/NdbLZsU.png"
     const val gridley = "https://i.imgur.com/NdbLZsU.png"
-    const val halseyPowell = "https://i.imgur.com/KMivyCq.png"
+    const val halseyPowell = "https://i.imgur.com/NdbLZsU.png"
     const val hammann = "https://i.imgur.com/NdbLZsU.png"
     const val hazelwood = "https://i.imgur.com/NdbLZsU.png"
     const val hobby = "https://i.imgur.com/NdbLZsU.png"
@@ -38,7 +38,7 @@ object USSEquipmentImage : USSEquipmentActivity() {
 
     // Light Cruisers
     const val atlanta = "https://i.imgur.com/SZmo64B.png"
-    const val biloxi = "https://i.imgur.com/SZmo64B.png"
+    const val biloxi = "https://i.imgur.com/koKsQXU.png"
     const val birmmingham = "https://i.imgur.com/koKsQXU.png"
     const val brooklyn = "https://i.imgur.com/koKsQXU.png"
     const val clevelad = "https://i.imgur.com/koKsQXU.png"

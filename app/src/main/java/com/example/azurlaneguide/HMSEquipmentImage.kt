@@ -26,7 +26,7 @@ object HMSEquipmentImage : HMSEquipmentActivity() {
     const val musketeer = "https://i.imgur.com/NdbLZsU.png"
     const val vampire = "https://i.imgur.com/NdbLZsU.png"
 
-    // Light Cruisers TODO: dido,glasgow,gloucester
+    // Light Cruisers
     const val achilles = "https://i.imgur.com/w8T9JT2.png"
     const val ajax = "https://i.imgur.com/w8T9JT2.png"
     const val arethusa = "https://i.imgur.com/w8T9JT2.png"
@@ -35,12 +35,12 @@ object HMSEquipmentImage : HMSEquipmentActivity() {
     const val blackPrince = "https://i.imgur.com/w8T9JT2.png"
     const val curacoa = "https://i.imgur.com/paHM1NG.png"
     const val curlew = "https://i.imgur.com/paHM1NG.png"
-    const val dido = "https://i.imgur.com/paHM1NG.png"
+    const val dido = "https://i.imgur.com/SZmo64B.png"
     const val edinburgh = "https://i.imgur.com/w8T9JT2.png"
     const val fiji = "https://i.imgur.com/w8T9JT2.png"
     const val galatea = "https://i.imgur.com/w8T9JT2.png"
-    const val glasgow = "https://i.imgur.com/paHM1NG.png"
-    const val gloucester = "https://i.imgur.com/paHM1NG.png"
+    const val glasgow = "https://i.imgur.com/w8T9JT2.png"
+    const val gloucester = "https://i.imgur.com/w8T9JT2.png"
     const val neptune = "https://i.imgur.com/w8T9JT2.png"
     const val jamaica = "https://i.imgur.com/w8T9JT2.png"
     const val leander = "https://i.imgur.com/w8T9JT2.png"

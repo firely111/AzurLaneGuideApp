@@ -12,7 +12,5 @@ class AboutActivity : MenuActivity() {
 
         val imageView: ImageView = findViewById(R.id.about)
         Picasso.get().load("https://i.imgur.com/5hSux3S.png").into(imageView) // Big Chungus
-
-
     }
 }
