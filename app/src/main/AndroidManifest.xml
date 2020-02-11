@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.azurlaneguide">
+    package="com.al.equipmentguide">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".FactionActivity"
+        <activity android:name="com.al.equipmentguide.FactionActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,141 +21,141 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CategoryActivity"
+        <activity android:name="com.al.equipmentguide.CategoryActivity"
             android:label="Ship Category"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
+                android:value="com.al.equipmentguide.FactionActivity"/>
         </activity>
 
-        <activity android:name=".ROCActivity"
+        <activity android:name="com.al.equipmentguide.ROCActivity"
             android:label="Dragon Empery Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
+                android:value="com.al.equipmentguide.FactionActivity"/>
         </activity>
 
-        <activity android:name=".ROCEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.ROCEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ROCActivity"/>
+                android:value="com.al.equipmentguide.ROCActivity"/>
         </activity>
 
-        <activity android:name=".USSActivity"
+        <activity android:name="com.al.equipmentguide.USSActivity"
             android:label="Eagle Union Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CategoryActivity"/>
+                android:value="com.al.equipmentguide.CategoryActivity"/>
         </activity>
 
-        <activity android:name=".USSEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.USSEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".USSActivity"/>
+                android:value="com.al.equipmentguide.USSActivity"/>
         </activity>
 
-        <activity android:name=".FFNFActivity"
+        <activity android:name="com.al.equipmentguide.FFNFActivity"
             android:label="Iris Libre Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
+                android:value="com.al.equipmentguide.FactionActivity"/>
         </activity>
 
-        <activity android:name=".FFNFEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.FFNFEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FFNFActivity"/>
+                android:value="com.al.equipmentguide.FFNFActivity"/>
         </activity>
 
-        <activity android:name=".KMSActivity"
+        <activity android:name="com.al.equipmentguide.KMSActivity"
             android:label="Ironblood Ships"
             android:launchMode="singleTop">
         <meta-data android:name="android.support.PARENT_ACTIVITY"
-            android:value=".CategoryActivity"/>
+            android:value="com.al.equipmentguide.CategoryActivity"/>
         </activity>
 
-        <activity android:name=".KMSEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.KMSEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".KMSActivity"/>
+                android:value="com.al.equipmentguide.KMSActivity"/>
         </activity>
 
-        <activity android:name=".SNActivity"
+        <activity android:name="com.al.equipmentguide.SNActivity"
             android:label="Northern Parliament Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
+                android:value="com.al.equipmentguide.FactionActivity"/>
         </activity>
 
-        <activity android:name=".SNEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.SNEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".SNActivity"/>
+                android:value="com.al.equipmentguide.SNActivity"/>
         </activity>
 
-        <activity android:name=".HMSActivity"
+        <activity android:name="com.al.equipmentguide.HMSActivity"
             android:label="Royal Navy Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CategoryActivity"/>
+                android:value="com.al.equipmentguide.CategoryActivity"/>
         </activity>
 
-        <activity android:name=".HMSEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.HMSEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".HMSActivity"/>
+                android:value="com.al.equipmentguide.HMSActivity"/>
         </activity>
 
-        <activity android:name=".IJNActivity"
+        <activity android:name="com.al.equipmentguide.IJNActivity"
             android:label="Sakura Empire Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CategoryActivity"/>
+                android:value="com.al.equipmentguide.CategoryActivity"/>
         </activity>
 
-        <activity android:name=".IJNEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.IJNEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".IJNActivity"/>
+                android:value="com.al.equipmentguide.IJNActivity"/>
         </activity>
 
-        <activity android:name=".RNActivity"
+        <activity android:name="com.al.equipmentguide.RNActivity"
             android:label="Sardegna Empire Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
+                android:value="com.al.equipmentguide.FactionActivity"/>
         </activity>
 
-        <activity android:name=".RNEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.RNEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RNActivity"/>
+                android:value="com.al.equipmentguide.RNActivity"/>
         </activity>
 
-        <activity android:name=".MNFActivity"
+        <activity android:name="com.al.equipmentguide.MNFActivity"
             android:label="Vichya Dominion Ships"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".FactionActivity"/>
+                android:value="com.al.equipmentguide.FactionActivity"/>
         </activity>
 
-        <activity android:name=".MNFEquipmentActivity"
+        <activity android:name="com.al.equipmentguide.MNFEquipmentActivity"
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MNFActivity"/>
+                android:value="com.al.equipmentguide.MNFActivity"/>
         </activity>
 
-        <activity android:name=".AboutActivity"
+        <activity android:name="com.al.equipmentguide.AboutActivity"
             android:label="About"
             android:launchMode="singleTop">
         </activity>
 
-        <activity android:name=".CreditsActivity"
+        <activity android:name="com.al.equipmentguide.CreditsActivity"
             android:label="Credits"
             android:launchMode="singleTop">
         </activity>
 
-        <activity android:name=".NotesActivity"
+        <activity android:name="com.al.equipmentguide.NotesActivity"
             android:label="Notes"
             android:launchMode="singleTop">
         </activity>
