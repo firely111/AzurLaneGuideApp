@@ -71,6 +71,7 @@ object HMSShip : HMSActivity() {
         val littleBel = "https://i.imgur.com/ApJ0oGN.png"
         val newcastle = "https://i.imgur.com/1KArGSg.png"
         val sheffield = "https://i.imgur.com/PcHx09E.png"
+        val sheffieldMuse = "https://i.imgur.com/EgunAVq.jpg"
         val sirius = "https://i.imgur.com/1yEgAuZ.png"
         val southampton = "https://i.imgur.com/jSL0aYo.png"
         val swiftsure = "https://i.imgur.com/sx3Vu9x.png"
@@ -95,6 +96,7 @@ object HMSShip : HMSActivity() {
         hmsShip.add(HMS(littleBel))
         hmsShip.add(HMS(newcastle))
         hmsShip.add(HMS(sheffield))
+        hmsShip.add(HMS(sheffieldMuse))
         hmsShip.add(HMS(sirius))
         hmsShip.add(HMS(southampton))
         hmsShip.add(HMS(swiftsure))

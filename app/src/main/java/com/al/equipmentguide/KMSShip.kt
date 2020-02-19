@@ -43,12 +43,14 @@ object KMSShip : KMSActivity() {
     fun addKMSHeavyCruiser(){
         val admiralGrafSpee = "https://i.imgur.com/mwmUYs9.png"
         val admiralHipper = "https://i.imgur.com/KjkAhvF.png"
+        val admiralHipperMuse = "https://i.imgur.com/vK9KZJ6.jpg"
         val deutschland = "https://i.imgur.com/OD1ExAF.png"
         val prinzEugen = "https://i.imgur.com/fYHRzfR.png"
         val roon = "https://i.imgur.com/6H4YNzJ.png"
 
         kmsShip.add(KMS(admiralGrafSpee))
         kmsShip.add(KMS(admiralHipper))
+        kmsShip.add(KMS(admiralHipperMuse))
         kmsShip.add(KMS(deutschland))
         kmsShip.add(KMS(prinzEugen))
         kmsShip.add(KMS(roon))

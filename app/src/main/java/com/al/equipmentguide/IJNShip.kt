@@ -199,6 +199,7 @@ object IJNShip : IJNActivity() {
     fun addIJNAircraftCarrier() {
         val akagi = "https://i.imgur.com/0vWJAm5.png"
         val akagiChan = "https://i.imgur.com/FUDRqGa.png"
+        val akagiMuse = "https://i.imgur.com/N9HXV4R.jpg"
         val akashi = "https://i.imgur.com/FvT3vSU.png"
         val hiryuu = "https://i.imgur.com/kfVhG1w.png"
         val hiyou = "https://i.imgur.com/fzRBd2x.png"
@@ -215,6 +216,7 @@ object IJNShip : IJNActivity() {
 
         ijnShip.add(IJN(akagi))
         ijnShip.add(IJN(akagiChan))
+        ijnShip.add(IJN(akagiMuse))
         ijnShip.add(IJN(akashi))
         ijnShip.add(IJN(hiryuu))
         ijnShip.add(IJN(hiyou))

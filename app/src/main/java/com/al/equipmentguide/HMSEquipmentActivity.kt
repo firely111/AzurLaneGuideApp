@@ -208,14 +208,18 @@ open class HMSEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Sheffield"
             }
             20 -> {
+                Picasso.get().load(HMSEquipmentImage.sheffieldMuse).into(imageView)
+                supportActionBar?.title = "Sheffield μ"
+            }
+            21 -> {
                 Picasso.get().load(HMSEquipmentImage.sirius).into(imageView)
                 supportActionBar?.title = "Sirius"
             }
-            21 -> {
+            22 -> {
                 Picasso.get().load(HMSEquipmentImage.southampton).into(imageView)
                 supportActionBar?.title = "Southampton"
             }
-            22 -> {
+            23 -> {
                 Picasso.get().load(HMSEquipmentImage.swiftsure).into(imageView)
                 supportActionBar?.title = "Swiftsure"
             }

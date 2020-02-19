@@ -78,6 +78,7 @@ object USSShip : USSActivity() {
         val brooklyn = "https://i.imgur.com/r3MGQL0.png"
         val clevelad = "https://i.imgur.com/Gy86eCu.png"
         val cleveland = "https://i.imgur.com/Thua47P.png"
+        val clevelandMuse = "https://i.imgur.com/DrDKsTo.jpg"
         val columbia = "https://i.imgur.com/FGH4LYe.png"
         val concord = "https://i.imgur.com/F7SsRUB.png"
         val denver = "https://i.imgur.com/k48E1rs.png"
@@ -103,6 +104,7 @@ object USSShip : USSActivity() {
         ussShip.add(USS(brooklyn))
         ussShip.add(USS(clevelad))
         ussShip.add(USS(cleveland))
+        ussShip.add(USS(clevelandMuse))
         ussShip.add(USS(columbia))
         ussShip.add(USS(concord))
         ussShip.add(USS(denver))

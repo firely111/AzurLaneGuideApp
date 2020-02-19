@@ -25,12 +25,14 @@ class MNFActivity : MenuActivity() {
     fun addMNFShip(){
         val dunkerque = "https://i.imgur.com/1ANaDcT.png"
         val gascogne = "https://i.imgur.com/P3BbHEl.png"
+        val gascogneMuse = "https://i.imgur.com/C7MNidJ.jpg"
         val jeanBart = "https://i.imgur.com/U24r7kr.png"
         val leMalin = "https://i.imgur.com/h6GiN4W.png"
         val leMars = "https://i.imgur.com/9sfVJiV.png"
 
         mnfShip.add(MNF(dunkerque))
         mnfShip.add(MNF(gascogne))
+        mnfShip.add(MNF(gascogneMuse))
         mnfShip.add(MNF(jeanBart))
         mnfShip.add(MNF(leMalin))
         mnfShip.add(MNF(leMars))

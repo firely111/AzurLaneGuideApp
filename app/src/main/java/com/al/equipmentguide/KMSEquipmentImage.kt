@@ -24,6 +24,7 @@ object KMSEquipmentImage : KMSEquipmentActivity() {
     // Heavy Cruisers
     const val admiral_graf_spee = "https://i.imgur.com/vC2mrVG.png"
     const val admiral_hipper = "https://i.imgur.com/vC2mrVG.png"
+    const val admiral_hipper_muse = "https://i.imgur.com/vC2mrVG.png"
     const val deutschland = "https://i.imgur.com/vC2mrVG.png"
     const val prinz_eugen = "https://i.imgur.com/vC2mrVG.png"
     const val roon = "https://i.imgur.com/gNZtt5K.png"

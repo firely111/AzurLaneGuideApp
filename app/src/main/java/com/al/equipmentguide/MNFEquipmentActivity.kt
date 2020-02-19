@@ -8,6 +8,7 @@ class MNFEquipmentActivity : MenuActivity() {
 
     val dunkerque = "https://i.imgur.com/kYTO4F2.png"
     val gascogne = "https://i.imgur.com/bBppwDC.png"
+    val gascogneMuse = "https://i.imgur.com/4TBHDeH.png"
     val jeanBart = "https://i.imgur.com/i7wu63C.png"
     val leMalin = "https://i.imgur.com/NdbLZsU.png"
     val leMars = "https://i.imgur.com/NdbLZsU.png"
@@ -29,14 +30,18 @@ class MNFEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Gascogne"
             }
             2 -> {
+                Picasso.get().load(gascogneMuse).into(imageView)
+                supportActionBar?.title = "Gascogne μ"
+            }
+            3 -> {
                 Picasso.get().load(jeanBart).into(imageView)
                 supportActionBar?.title = "Jean Bart"
             }
-            3 -> {
+            4 -> {
                 Picasso.get().load(leMalin).into(imageView)
                 supportActionBar?.title = "Le Malin"
             }
-            4 -> {
+            5 -> {
                 Picasso.get().load(leMars).into(imageView)
                 supportActionBar?.title = "Le Mars"
             }

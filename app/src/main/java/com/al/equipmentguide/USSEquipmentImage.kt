@@ -43,6 +43,7 @@ object USSEquipmentImage : USSEquipmentActivity() {
     const val brooklyn = "https://i.imgur.com/koKsQXU.png"
     const val clevelad = "https://i.imgur.com/koKsQXU.png"
     const val cleveland = "https://i.imgur.com/koKsQXU.png"
+    const val clevelandMuse = "https://i.imgur.com/koKsQXU.png"
     const val columbia = "https://i.imgur.com/koKsQXU.png"
     const val concord = "https://i.imgur.com/koKsQXU.png"
     const val denver = "https://i.imgur.com/koKsQXU.png"

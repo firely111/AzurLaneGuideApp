@@ -432,54 +432,58 @@ open class IJNEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Akagi-chan"
             }
             2 -> {
+                Picasso.get().load(IJNEquipmentImage.akagiMuse).into(imageView)
+                supportActionBar?.title = "Akagi μ"
+            }
+            3 -> {
                 Picasso.get().load(IJNEquipmentImage.akashi).into(imageView)
                 supportActionBar?.title = "Akashi"
             }
-            3 -> {
+            4 -> {
                 Picasso.get().load(IJNEquipmentImage.hiryuu).into(imageView)
                 supportActionBar?.title = "Hiryuu"
             }
-            4 -> {
+            5 -> {
                 Picasso.get().load(IJNEquipmentImage.hiyou).into(imageView)
                 supportActionBar?.title = "Hiyou"
             }
-            5 -> {
+            6 -> {
                 Picasso.get().load(IJNEquipmentImage.houshou).into(imageView)
                 supportActionBar?.title = "Houshou"
             }
-            6 -> {
+            7 -> {
                 Picasso.get().load(IJNEquipmentImage.junyou).into(imageView)
                 supportActionBar?.title = "Junyou"
             }
-            7 -> {
+            8 -> {
                 Picasso.get().load(IJNEquipmentImage.kagaB).into(imageView)
                 supportActionBar?.title = "Kaga"
             }
-            8 -> {
+            9 -> {
                 Picasso.get().load(IJNEquipmentImage.ryuuhou).into(imageView)
                 supportActionBar?.title = "Ryuuhou"
             }
-            9 -> {
+            10 -> {
                 Picasso.get().load(IJNEquipmentImage.ryuujou).into(imageView)
                 supportActionBar?.title = "Ryuujou"
             }
-            10 -> {
+            11 -> {
                 Picasso.get().load(IJNEquipmentImage.shouhou).into(imageView)
                 supportActionBar?.title = "Shouhou"
             }
-            11 -> {
+            12 -> {
                 Picasso.get().load(IJNEquipmentImage.shoukaku).into(imageView)
                 supportActionBar?.title = "Shoukaku"
             }
-            12 -> {
+            13 -> {
                 Picasso.get().load(IJNEquipmentImage.souryuu).into(imageView)
                 supportActionBar?.title = "Souryuu"
             }
-            13 -> {
+            14 -> {
                 Picasso.get().load(IJNEquipmentImage.taihou).into(imageView)
                 supportActionBar?.title = "Taihou"
             }
-            14 -> {
+            15 -> {
                 Picasso.get().load(IJNEquipmentImage.zuikaku).into(imageView)
                 supportActionBar?.title = "Zuikaku"
             }

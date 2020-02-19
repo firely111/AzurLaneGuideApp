@@ -118,14 +118,18 @@ open class KMSEquipmentActivity : MenuActivity() {
                 supportActionBar?.title = "Admiral Hipper"
             }
             2 -> {
+                Picasso.get().load(KMSEquipmentImage.admiral_hipper_muse).into(imageView)
+                supportActionBar?.title = "Admiral Hipper μ"
+            }
+            3 -> {
                 Picasso.get().load(KMSEquipmentImage.deutschland).into(imageView)
                 supportActionBar?.title = "Deutschland"
             }
-            3 -> {
+            4 -> {
                 Picasso.get().load(KMSEquipmentImage.prinz_eugen).into(imageView)
                 supportActionBar?.title = "Prinz Eugen"
             }
-            4 -> {
+            5 -> {
                 Picasso.get().load(KMSEquipmentImage.roon).into(imageView)
                 supportActionBar?.title = "Roon"
             }

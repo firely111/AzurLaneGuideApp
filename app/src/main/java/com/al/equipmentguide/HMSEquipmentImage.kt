@@ -47,6 +47,7 @@ object HMSEquipmentImage : HMSEquipmentActivity() {
     const val littleBel = "https://i.imgur.com/w8T9JT2.png"
     const val newcastle = "https://i.imgur.com/w8T9JT2.png"
     const val sheffield = "https://i.imgur.com/w8T9JT2.png"
+    const val sheffieldMuse = "https://i.imgur.com/w8T9JT2.png"
     const val sirius = "https://i.imgur.com/Y9DqYYv.png"
     const val southampton = "https://i.imgur.com/koKsQXU.png"
     const val swiftsure = "https://i.imgur.com/w8T9JT2.png"

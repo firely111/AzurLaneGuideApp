@@ -102,6 +102,7 @@ object IJNEquipmentImage : IJNEquipmentActivity() {
     //Aircraft Carriers
     const val akagi = "https://i.imgur.com/20lr32T.png"
     const val akagiChan = "https://i.imgur.com/20lr32T.png"
+    const val akagiMuse = "https://i.imgur.com/20lr32T.png"
     const val akashi = "https://i.imgur.com/HuZbfsv.png"
     const val hiryuu = "https://i.imgur.com/20lr32T.png"
     const val hiyou = "https://i.imgur.com/yoNiInt.png"
